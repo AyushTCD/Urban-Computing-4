@@ -1,10 +1,12 @@
 import pandas as pd
 import streamlit as st
 import plost
-import seaborn as sns
+# import seaborn as sns
 import matplotlib.pyplot as plt
 import streamlit.components.v1 as components
 import os 
+import plotly.figure_factory as ff 
+import plotly.express as px
 
 # Set the layout of the app
 st.set_page_config(layout='wide', initial_sidebar_state='expanded')
@@ -107,20 +109,27 @@ def main():
     
     st.markdown('### Correlation Matrix')
     corr_matrix = combined_data.corr()
-    plt.figure(figsize=(10, 8))
-    sns.heatmap(corr_matrix, annot=True, cmap='coolwarm')
-    plt.title('Correlation Matrix')
-    st.pyplot(plt)
-
-     
+    fig = ff.create_annotated_heatmap(
+    z=corr_matrix.values,
+    x=list(corr_matrix.columns),
+    y=list(corr_matrix.index),
+    colorscale='coolwarm'
+)
+    fig.update_layout(title_text='Correlation Matrix', title_x=0.5)
+    st.plotly_chart(fig, use_container_width=True)
+    
+    
     st.markdown('### Geographic Distribution of Bike Usage')
-    plt.figure(figsize=(10, 6))
-    sns.scatterplot(data=bike_data, x='LONGITUDE', y='LATITUDE', size='AVAILABLE_BIKES', hue='AVAILABLE_BIKES')
-    plt.title('Geographic Distribution of Bike Usage')
-    plt.xlabel('Longitude')
-    plt.ylabel('Latitude')
-    plt.legend(bbox_to_anchor=(1.05, 1.0), loc='upper left')
-    st.pyplot(plt)
+    fig = px.scatter(
+    bike_data, 
+    x='LONGITUDE', 
+    y='LATITUDE', 
+    size='AVAILABLE_BIKES', 
+    color='AVAILABLE_BIKES',
+    title='Geographic Distribution of Bike Usage'
+)
+    fig.update_layout(legend=dict(x=1, y=1))
+    st.plotly_chart(fig, use_container_width=True)
 
     
 
