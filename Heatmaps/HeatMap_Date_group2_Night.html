@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_290669620446e1b17bafbb44d63b20b4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@main/folium/templates/leaflet_heat.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_290669620446e1b17bafbb44d63b20b4" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_290669620446e1b17bafbb44d63b20b4 = L.map(
+                "map_290669620446e1b17bafbb44d63b20b4",
+                {
+                    center: [53.3498, -6.2603],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_41a46c6f05618d22a1c98682e46820a1 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+                tile_layer_41a46c6f05618d22a1c98682e46820a1.addTo(map_290669620446e1b17bafbb44d63b20b4);
+    
+            var heat_map_5f3d07596769e3933e9be071a052d444 = L.heatLayer(
+                [[53.3301, -6.26804, 19.352713178294575], [53.3304, -6.26516, 20.94573643410853], [53.3307, -6.26018, 22.01937984496124], [53.3324, -6.25272, 6.6976744186046515], [53.3328, -6.25794, 6.864341085271318], [53.3337, -6.24834, 8.352713178294573], [53.334, -6.26071, 1.2596899224806202], [53.3341, -6.26544, 14.643410852713178], [53.3343, -6.2585, 2.616279069767442], [53.3344, -6.24557, 6.0271317829457365], [53.3352, -6.2509, 2.8488372093023258], [53.3357, -6.24551, 12.825581395348838], [53.336, -6.26298, 7.953488372093023], [53.3361, -6.25282, 7.158914728682171], [53.3366, -6.24811, 9.193798449612403], [53.3371, -6.26059, 7.771317829457364], [53.3375, -6.26199, 8.313953488372093], [53.3378, -6.2677, 18.934108527131784], [53.3378, -6.25603, 11.294573643410853], [53.338, -6.24153, 7.72093023255814], [53.3386, -6.24861, 2.306201550387597], [53.3388, -6.30395, 17.8953488372093], [53.3388, -6.262, 16.790697674418606], [53.339, -6.30022, 17.18217054263566], [53.3392, -6.24064, 16.01937984496124], [53.3393, -6.2647, 16.856589147286822], [53.3394, -6.24655, 2.9186046511627906], [53.3396, -6.24378, 14.186046511627907], [53.3398, -6.25199, 6.410852713178294], [53.3407, -6.30819, 16.515503875968992], [53.3408, -6.26773, 6.5], [53.3409, -6.2625, 12.717054263565892], [53.3413, -6.25812, 7.5271317829457365], [53.3414, -6.29295, 15.046511627906977], [53.3414, -6.24672, 16.48062015503876], [53.3415, -6.25685, 12.87984496124031], [53.3416, -6.29719, 9.166666666666666], [53.3418, -6.30509, 8.476744186046512], [53.3418, -6.23129, 24.38372093023256], [53.3421, -6.31002, 23.12015503875969], [53.3421, -6.27523, 12.2984496124031], [53.3422, -6.25449, 11.717054263565892], [53.3423, -6.28766, 12.054263565891473], [53.3426, -6.2387, 17.46511627906977], [53.343, -6.26358, 6.077519379844961], [53.3431, -6.27717, 7.147286821705427], [53.3434, -6.27012, 7.112403100775194], [53.3435, -6.28741, 12.949612403100776], [53.3436, -6.27507, 8.116279069767442], [53.3437, -6.23175, 12.228682170542635], [53.3439, -6.29706, 20.651162790697676], [53.3439, -6.28053, 12.054263565891473], [53.344, -6.2668, 9.965116279069768], [53.3441, -6.23715, 7.922480620155039], [53.3442, -6.23345, 8.069767441860465], [53.3443, -6.25043, 12.98062015503876], [53.3446, -6.26337, 14.914728682170542], [53.3452, -6.24716, 23.406976744186046], [53.3459, -6.25461, 12.077519379844961], [53.346, -6.24358, 10.728682170542635], [53.3461, -6.268, 16.54263565891473], [53.3466, -6.29692, 25.375968992248062], [53.3466, -6.24615, 4.3604651162790695], [53.3469, -6.27298, 9.755813953488373], [53.3469, -6.23085, 16.794573643410853], [53.347, -6.2978, 21.13953488372093], [53.3471, -6.29204, 16.286821705426355], [53.3471, -6.23475, 9.988372093023257], [53.3474, -6.23852, 4.763565891472868], [53.3475, -6.28525, 18.810077519379846], [53.3475, -6.25219, 13.453488372093023], [53.3477, -6.27821, 12.255813953488373], [53.3478, -6.29243, 32.74418604651163], [53.3478, -6.24424, 11.368217054263566], [53.3479, -6.24805, 12.562015503875969], [53.3479, -6.24093, 22.868217054263567], [53.348, -6.2918, 27.050387596899224], [53.3483, -6.26665, 7.872093023255814], [53.3483, -6.25466, 19.4031007751938], [53.3488, -6.28164, 10.186046511627907], [53.3489, -6.26746, 15.825581395348838], [53.349, -6.26031, 10.63953488372093], [53.3496, -6.2782, 16.1046511627907], [53.3502, -6.2797, 15.655038759689923], [53.3503, -6.27351, 8.178294573643411], [53.3509, -6.26512, 8.5968992248062], [53.351, -6.25294, 21.527131782945737], [53.3512, -6.26986, 8.050387596899224], [53.3515, -6.25527, 18.44573643410853], [53.3521, -6.26053, 10.116279069767442], [53.3533, -6.24932, 10.988372093023257], [53.3535, -6.26531, 2.7868217054263567], [53.3547, -6.27868, 3.310077519379845], [53.3547, -6.27231, 2.124031007751938], [53.3548, -6.24758, 23.51937984496124], [53.3549, -6.26942, 6.10077519379845], [53.3552, -6.27842, 6.624031007751938], [53.3555, -6.26442, 4.251937984496124], [53.3556, -6.2614, 5.635658914728682], [53.356, -6.27838, 6.391472868217054], [53.3563, -6.27372, 12.10077519379845], [53.3563, -6.25859, 11.9031007751938], [53.3567, -6.25636, 10.7984496124031], [53.3568, -6.26814, 7.228682170542636], [53.357, -6.26323, 2.503875968992248], [53.3578, -6.25156, 21.453488372093023], [53.3581, -6.2656, 3.046511627906977], [53.3584, -6.26064, 13.755813953488373], [53.3589, -6.28034, 13.930232558139535], [53.3592, -6.28187, 12.817829457364342], [53.3592, -6.26978, 5.4689922480620154], [53.3594, -6.27614, 11.984496124031008], [53.3596, -6.26035, 18.717054263565892], [53.36, -6.26483, 11.267441860465116]],
+                {"blur": 15, "maxZoom": 18, "minOpacity": 0.5, "radius": 25}
+            );
+        
+    
+                heat_map_5f3d07596769e3933e9be071a052d444.addTo(map_290669620446e1b17bafbb44d63b20b4);
+    
+            var marker_8fdb2bc97d99561bd2504b05a8eb4fbc = L.marker(
+                [53.346694, -6.272244],
+                {}
+            ).addTo(map_290669620446e1b17bafbb44d63b20b4);
+        
+    
+            var icon_51c4f952e88c44ad7a70716b5ae59677 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8fdb2bc97d99561bd2504b05a8eb4fbc.setIcon(icon_51c4f952e88c44ad7a70716b5ae59677);
+        
+    
+        var popup_c89b67a7f9ba3bede6196ace2d57e344 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1669b39166c68767d242d4434418686c = $(`<div id="html_1669b39166c68767d242d4434418686c" style="width: 100.0%; height: 100.0%;">Chancery park: Average Night Noise Level (Date Group 2): 60.82 dB</div>`)[0];
+                popup_c89b67a7f9ba3bede6196ace2d57e344.setContent(html_1669b39166c68767d242d4434418686c);
+            
+        
+
+        marker_8fdb2bc97d99561bd2504b05a8eb4fbc.bindPopup(popup_c89b67a7f9ba3bede6196ace2d57e344)
+        ;
+
+        
+    
+    
+            var marker_dcb9ef5ecbcde12d9bf2f18020314720 = L.marker(
+                [53.369864, -6.258966],
+                {}
+            ).addTo(map_290669620446e1b17bafbb44d63b20b4);
+        
+    
+            var icon_1ec53d67790db57ba2d8ccdbe2991687 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_dcb9ef5ecbcde12d9bf2f18020314720.setIcon(icon_1ec53d67790db57ba2d8ccdbe2991687);
+        
+    
+        var popup_f3af0060fbbb4d7ef99d4760c7917a73 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f38ea003c485979fc7713931a710e4d5 = $(`<div id="html_f38ea003c485979fc7713931a710e4d5" style="width: 100.0%; height: 100.0%;">DrumcondraLibrary: Average Night Noise Level (Date Group 2): 40.10 dB</div>`)[0];
+                popup_f3af0060fbbb4d7ef99d4760c7917a73.setContent(html_f38ea003c485979fc7713931a710e4d5);
+            
+        
+
+        marker_dcb9ef5ecbcde12d9bf2f18020314720.bindPopup(popup_f3af0060fbbb4d7ef99d4760c7917a73)
+        ;
+
+        
+    
+    
+            var marker_df80a875fb9ddeeb4082b39cfa1ce638 = L.marker(
+                [53.323524, -6.247734],
+                {}
+            ).addTo(map_290669620446e1b17bafbb44d63b20b4);
+        
+    
+            var icon_a72ee1ecdc654484226448e06fbaa217 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_df80a875fb9ddeeb4082b39cfa1ce638.setIcon(icon_a72ee1ecdc654484226448e06fbaa217);
+        
+    
+        var popup_8ee0daa5833ce2032856650d14abbdbf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c71ce9b1fe0bcb17594e99046e0a379 = $(`<div id="html_5c71ce9b1fe0bcb17594e99046e0a379" style="width: 100.0%; height: 100.0%;">WoodstockGardens: Average Night Noise Level (Date Group 2): 47.35 dB</div>`)[0];
+                popup_8ee0daa5833ce2032856650d14abbdbf.setContent(html_5c71ce9b1fe0bcb17594e99046e0a379);
+            
+        
+
+        marker_df80a875fb9ddeeb4082b39cfa1ce638.bindPopup(popup_8ee0daa5833ce2032856650d14abbdbf)
+        ;
+
+        
+    
+    
+            var marker_4ed95eed54dbeb9bebd15d15849250bd = L.marker(
+                [53.3568, -6.26814],
+                {}
+            ).addTo(map_290669620446e1b17bafbb44d63b20b4);
+        
+    
+            var icon_8042bd08b6cda7680f5c37e4363f06e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4ed95eed54dbeb9bebd15d15849250bd.setIcon(icon_8042bd08b6cda7680f5c37e4363f06e6);
+        
+    
+        var popup_3ec72891289bd46dcebe2b4a804ac08b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f12877cde2b7cc16c4e1bb7e0b67c7f4 = $(`<div id="html_f12877cde2b7cc16c4e1bb7e0b67c7f4" style="width: 100.0%; height: 100.0%;">Blessington: Average Night Noise Level (Date Group 2): 58.41 dB</div>`)[0];
+                popup_3ec72891289bd46dcebe2b4a804ac08b.setContent(html_f12877cde2b7cc16c4e1bb7e0b67c7f4);
+            
+        
+
+        marker_4ed95eed54dbeb9bebd15d15849250bd.bindPopup(popup_3ec72891289bd46dcebe2b4a804ac08b)
+        ;
+
+        
+    
+</script>
+</html>

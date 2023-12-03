@@ -1,0 +1,922 @@
+[
+  {
+    "date": "2023-10-02",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 60.6,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-02",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 59.3,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-03",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 61.2,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-03",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 60.7,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-04",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 61.1,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-04",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 58.4,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-05",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 61.8,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-05",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 57.3,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-06",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 60.3,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-06",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 57.7,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-07",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 59.9,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-07",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 56.7,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-08",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 60.3,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-08",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 56.5,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-09",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 60,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-09",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 58.7,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-10",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 60.3,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-10",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 57.8,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-11",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 61.4,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-11",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 59.7,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-12",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 60.5,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-12",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 58,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-13",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 62.1,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-13",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 58.5,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-14",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 61.4,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-14",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 57.8,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-15",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 58.8,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-15",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 60.7,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-16",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 60.9,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-16",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 57.2,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-17",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 61.6,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-17",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 59.4,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-18",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 62.7,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-18",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 61.3,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-19",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 64.1,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-19",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 61,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-20",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 65.4,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-20",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 60.9,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-21",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 61.6,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-21",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 58.1,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-22",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 59.3,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-22",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 58.1,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-23",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 62.3,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-23",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 58.6,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-24",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 61.3,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-24",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 58.4,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-25",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 61.6,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-25",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 62.5,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-26",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 63.2,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-26",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 60.6,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-27",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 64.2,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-27",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 59.1,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-28",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 60.7,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-28",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 58.1,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-29",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 60.4,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-29",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 58.3,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-30",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 60,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-30",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 58.3,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-31",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 66.1,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-10-31",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 60.9,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-01",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 62,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-01",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 62.4,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-02",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 62.4,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-02",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 59,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-03",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 62.1,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-03",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 60.4,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-04",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 61.7,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-04",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 58,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-05",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 60.1,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-05",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 57.6,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-06",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 61.1,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-06",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 57.6,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-07",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 60.5,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-07",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 62.4,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-08",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 62.6,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-08",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 58.6,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-09",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 62.7,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-09",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 59,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-10",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 62.6,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-10",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 58.9,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-11",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 60.8,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-11",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 59.3,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-12",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 59.7,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-12",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 62,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-13",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 63.5,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-13",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 58.5,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-14",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 60.9,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-14",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 58.5,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-15",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 61,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-15",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 58.9,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-16",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 60.8,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-16",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 58.7,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-17",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 62.1,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-17",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 59.5,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-18",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 60.3,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-18",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 57.8,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-19",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 61.8,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-19",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 57.6,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-20",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 61.2,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-20",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 59.9,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-21",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 62.1,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-21",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 66.5,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-22",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 66.1,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-22",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 57.9,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-23",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 65.7,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-23",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 59.9,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-24",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 64,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-24",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 58.1,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-25",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 60.8,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-25",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 57.4,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-26",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 61.2,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-26",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 62.2,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-27",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 62.2,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-27",
+    "start_time": "23:00:00",
+    "end_time": "07:00:00",
+    "laeq": 57.7,
+    "limit_level": 0,
+    "breach": 0
+  },
+  {
+    "date": "2023-11-28",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "laeq": 60.6,
+    "limit_level": 0,
+    "breach": 0
+  }
+]
