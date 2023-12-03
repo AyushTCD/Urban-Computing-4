@@ -1,6 +1,6 @@
-# 📦 Dashboard (`version 2`)
+# Urban Computing Assignment Dashboard ()
 
-This is a dashboard app created in Python using Streamlit.
+This is a dashboard app created for the Urban Computing Assignment
 
 ## Demo App
 
